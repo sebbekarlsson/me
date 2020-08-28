@@ -1,2 +1,7 @@
 mkdir -p dist
-gpp src/index.html > dist/index.html
+SRCFILE=src/index.html
+DISTFILE=dist/index.html
+TMPFILE=tmp.html
+gpp $SRCFILE > $TMPFILE;
+./minify.sh $TMPFILE > $DISTFILE
+rm $TMPFILE

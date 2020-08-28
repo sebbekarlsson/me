@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Me</title>
+        <style>
+            {{ cate ("src/static/styles.gpp") }}
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <!--- HERO -->
+            <section class="hero is-medium is-dark is-bold">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                            Sebastian Karlsson
+                        </h1>
+                        <h2 class="subtitle">
+                            Developer and Engineer
+                        </h2>
+                    </div>
+                </div>
+            </section>
+            <!--- CONTENT -->
+            <section class="section">
+                <div class="container">
+                    <h1 class="title">Companies I been involved with</h1>
+                    <h2 class="subtitle">
+                        Here are some <strong>companies</strong> I have worked for or been involved with
+                        in some way.
+                    </h2>
+
+                    {{ cat ("src/companies.html") }}
+                </div>
+            </section>
+            <section class="section">
+                <div class="container has-text-centered">
+                    <h1 class="title">Skills</h1>
+                    <h2 class="subtitle mb-6">
+                        Below are my top skills 
+                    </h2>
+                    {{ cate ("src/skills.html") }}
+                </div>
+            </section>
+            <section class="section">
+                <div class="container has-text-centered">
+                    <h1 class="title">Contact Me</h1>
+                    {{ cat ("src/contact.html") }}
+                </div>
+            </section>
+        </div>
+    </body>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <strong>Sebastian Karlsson</strong> <a href="https://github.com/sebbekarlsson">Github</a>
+      </div>
+    </footer>
+</html>

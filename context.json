@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {"python": 95 },
+        {"javascript": 79 },
+        {"C": 80},
+        {"C++": 79},
+        {"PHP": 89},
+        {"Typescript": 79},
+        {"Bash": 79},
+        {"SQL": 60},
+        {"CSS": 81},
+        {"HTML": 90},
+        {"SCSS": 82},
+        {"Java": 60},
+        {"React.js": 70},
+        {"Vue.js": 50},
+        {"Flask": 90},
+        {"MongoDB": 69},
+        {"Flutter": 40},
+        {"React Native": 39},
+        {"OpenGL": 60},
+        {"Linux": 87},
+        {"Kubernetes": 20},
+        {"Elastic Search": 25},
+        {"Firebase": 59},
+        {"Wordpress": 86}
+    ]
+}

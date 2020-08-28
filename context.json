@@ -1,7 +1,10 @@
 {
+    "title": "Ianertson",
+    "headline": "Sebastian Karlsson",
+    "description": "Developer and Engineer",
     "skills": [
-        {"python": 95 },
-        {"javascript": 79 },
+        {"python": 95},
+        {"javascript": 79},
         {"C": 80},
         {"C++": 79},
         {"PHP": 89},

@@ -11,46 +11,7 @@
     </head>
     <body>
         <div id="root">
-            <!--- HERO -->
-            <section class="hero is-medium is-dark is-bold">
-                <div class="hero-body">
-                    <div class="container">
-                        <h1 class="title">
-                            {{ headline }}
-                        </h1>
-                        <h2 class="subtitle">
-                            {{ description }} 
-                        </h2>
-                    </div>
-                </div>
-            </section>
-            <!--- CONTENT -->
-            <section class="section">
-                <div class="container">
-                    <h1 class="title">Companies I been involved with</h1>
-                    <h2 class="subtitle">
-                        Here are some <strong>companies</strong> I have worked for or been involved with
-                        in some way.
-                    </h2>
-
-                    {{ cat ("src/companies.html") }}
-                </div>
-            </section>
-            <section class="section">
-                <div class="container has-text-centered">
-                    <h1 class="title">Skills</h1>
-                    <h2 class="subtitle mb-6">
-                        Below are my top skills 
-                    </h2>
-                    {{ cate ("src/skills.html") }}
-                </div>
-            </section>
-            <section class="section">
-                <div class="container has-text-centered">
-                    <h1 class="title">Contact Me</h1>
-                    {{ cat ("src/contact.html") }}
-                </div>
-            </section>
+            (@#%block root @)
         </div>
     </body>
     <footer class="footer">

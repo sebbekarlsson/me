@@ -1,5 +1,5 @@
 mkdir -p dist
-SRCFILE=src/index.html
+SRCFILE=src/start.html
 DISTFILE=dist/index.html
 TMPFILE=tmp.html
 gpp $SRCFILE > $TMPFILE;

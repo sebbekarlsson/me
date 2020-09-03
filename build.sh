@@ -5,7 +5,8 @@ DISTDIR=dist
 DISTFILE=$DISTDIR/index.html
 TMPFILE=tmp.html
 gpp $SRCFILE > $TMPFILE;
-./minify.sh $TMPFILE > $DISTFILE
+#./minify.sh $TMPFILE > $DISTFILE
+cat $TMPFILE > $DISTFILE
 rm $TMPFILE
 
 # favicons

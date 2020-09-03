@@ -1,19 +1,25 @@
 <div class="columns is-mobile is-multiline">
-
-    {{  map (skills, (@
-        <div class="column is-6-mobile is-2-desktop is-4-tablet">
-            <div class="card">
-                <div class="card-content">
-                    <section class='mb-4'>
-                        <h2>{{ key ($0, 0) }}</h2>
-                    </section>
-                    <section>
-                        <progress class="progress is-medium" value="{{ value ($0, 0) }}" max="100">{{ value ($0, 0) }}</progress>
-                    </section>
+    {{ 
+        map (skills, (@
+            <div class="column is-6-mobile is-2-desktop is-4-tablet">
+                <div class="card">
+                    <div class="card-content">
+                        <section class='mb-4'>
+                            <h2>{{ key ($0, 0) }}</h2>
+                        </section>
+                        <section>
+                            <progress class="progress is-medium" value="{{ value ($0, 0) }}" max="100">{{ value ($0, 0) }}</progress>
+                        </section>
+                    </div>
                 </div>
             </div>
-        </div>
-    @)) }}
-
-    
+        @))
+    }}    
 </div>
+<details>
+    <summary>Show source code</summary>
+    <div class="my-4">
+        <i>This website is written in my own templating language</i>
+    </div>
+    <pre><code class="html">{{ escapehtml (cat ("src/skills.html")) }}</code></pre>
+</details>

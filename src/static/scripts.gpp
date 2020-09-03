@@ -1,0 +1,4 @@
+{{ cat (
+    "src/static/js/highlight.min.js",
+    "src/static/js/app.js"
+) }}

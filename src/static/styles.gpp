@@ -1,5 +1,6 @@
 {{ cat (
     "src/static/bulma.min.css",
+    "src/static/highlight/gruvbox-dark.css",
     "src/static/companies.css",
     "src/static/style.css"
 ) }}

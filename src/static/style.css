@@ -8,3 +8,23 @@ details summary ~ * {
   0%    {opacity: 0; height: 0%}
   100%  {opacity: 1; height: 100%}
 }
+
+.social-area {
+  width: 30%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.social-area a {
+  color: inherit;
+}
+
+@media screen and (max-width: 769px) {
+  .social-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    text-align: center;
+  }
+}

@@ -17,10 +17,19 @@
     <section class="section">
         <div class="container">
             <h1 class="title">Companies I been involved with</h1>
-            <h2 class="subtitle">
-                Here are some <strong>companies</strong> I have worked for or been involved with
-                in some way.
-            </h2>
+            <div>
+                <h2 style="display: inline-block;" class="subtitle">
+                    Here are some <strong>companies</strong> I have worked for or been involved with
+                    in some way.
+                </h2>
+                <details class="mt-1 mb-2">
+                    <summary>See detailed CV</summary>
+                    <div class="cv-contents">
+                        {{ cat ("src/cv.html") }}
+                    </div>
+                    <a href="cv.docx" target="_blank" class="button is-primary mt-2 mb-2">Download CV</a>
+                </details>
+            </div>
 
             {{ cate ("src/companies.html") }}
         </div>

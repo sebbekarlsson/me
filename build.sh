@@ -4,6 +4,8 @@ STATICDIR=src/static
 DISTDIR=dist
 DISTFILE=$DISTDIR/index.html
 TMPFILE=tmp.html
+markdown src/cv.md > src/cv.html
+pandoc src/cv.md -o dist/cv.docx
 gpp $SRCFILE > $TMPFILE;
 #./minify.sh $TMPFILE > $DISTFILE
 cat $TMPFILE > $DISTFILE

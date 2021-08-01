@@ -28,3 +28,47 @@ details summary ~ * {
     text-align: center;
   }
 }
+
+.cv-contents {
+  box-sizing: border-box;
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.cv-contents blockquote+h3 {
+  margin-top: 1rem;
+}
+
+.cv-contents h2+h3 {
+  margin-top: 1rem;
+}
+
+.cv-contents h2, .cv-contents h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cv-contents h2 {
+  font-size: 1.5rem;
+}
+
+.cv-contents ul {
+  width: 100%;
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.cv-contents li {
+  width: 100%;
+}
+
+.cv-contents li p {
+  display: inline;
+}
+
+.cv-contents h1,
+.cv-contents h2,
+.cv-contents h3,
+.cv-contents h4 {
+  font-weight: bold;
+}

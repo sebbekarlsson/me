@@ -1,7 +1,45 @@
+# Sebastian Robert Karlsson
+> Sebastian is an ambitious programmer, Linux enthusiast and full stack developer.  
+> Sebastian, despite his age, has years of experience in Frontend and Backend Development.  
+> Sebastian is an incredibly driven developer who has worked in many 
+> different projects such as; intranet, web pages, APIs, 
+> Commandline tools, mobile applications, desktop applications 
+> and game engines.  
+> To keep up to date with latest technology  is something that Sebastian sees as a matter of importance, 
+> especially in web development, where everything is constantly changing.
+> Sebastian has had the opportunity to work with big companies such as Volvo, EPC Groupe, Academedia, Gothenburg University, Offecct.se and much more.  
+> Sebastian's main techniques that he prefers to work with is (but not limited to):
+
+* Javascript
+* Typescript
+* Node.js
+* React
+* Python
+* C
+* C++
+* OpenGL
+* Bash
+* SQL
+* CSS
+* SASS
+* Linux
+
+
+
 ## Companies
 
-### 2019 - now (current) Teacher at Codic Education
+### 2020 - now (current) Teacher at Codic Education
 > Working as a teacher in IT-related subjects at different schools.
+
+### 2019 - 2021 PAX H.
+> As a consultant from my own company, I helped write an application for this company.  
+> Some of the technologies I used were:
+
+* Javascript
+* Typescript
+* Node.js
+* React
+* Firebase
 
 ### 2019 - now (current) Self Employed
 > Running my own business as an IT-consultant
@@ -28,7 +66,7 @@
 
 ## Below are some of the projects Sebastian has been involved with:
 
-### 2020 - 2021 (Secret project with customer in Hong Kong)
+### 2020 - 2021 (Secret project with customer)
 > As a full-stack developer, I was developing an economy system application.
 
 * React

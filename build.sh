@@ -6,6 +6,7 @@ DISTFILE=$DISTDIR/index.html
 TMPFILE=tmp.html
 markdown src/cv.md > src/cv.html
 pandoc src/cv.md -o dist/cv.docx
+pandoc src/cv.md -o dist/cv.pdf --pdf-engine=xelatex
 gpp $SRCFILE > $TMPFILE;
 #./minify.sh $TMPFILE > $DISTFILE
 cat $TMPFILE > $DISTFILE

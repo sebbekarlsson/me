@@ -1,0 +1,10 @@
+
+<div class="tabs is-centered">
+    <ul>
+        {{
+          map (navitems, (@
+          <li><a href="{{ value ($0, 0) }}">{{ key ($0, 0) }}</a></li>
+          @))
+        }}
+  </ul>
+</div>

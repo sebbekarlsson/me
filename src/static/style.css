@@ -72,3 +72,11 @@ details summary ~ * {
 .cv-contents h4 {
   font-weight: bold;
 }
+
+img {
+  cursor: pointer;
+}
+
+.project-cards .column {
+  min-width: 20%;
+}

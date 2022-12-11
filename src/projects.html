@@ -1,0 +1,26 @@
+#%extends "src/index.html"
+
+{{ cate ("components/card.html") }}
+
+
+
+
+(@#%block root
+    {{ cate ("components/hero.html") }}
+    {{ cate ("components/nav.html") }}
+    <section class="section project-cards">
+
+        <div class="columns is-desktop is-multiline">
+
+                {{
+                    map(projectCards, (@
+                        <div class="column">
+                            {{ Card(" ", " ", " ", $0.img) }}
+                        </div>
+                    @))
+                }}
+
+
+        </div>
+    </section>
+@)

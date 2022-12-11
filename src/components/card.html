@@ -1,0 +1,23 @@
+{{
+    Card = (title, subtitle, content, img) => (@
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="{{ img }}" alt="{{ title }}">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ title }}</p>
+                <p class="subtitle is-6">{{ subtitle }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+                {{ content }}
+            </div>
+          </div>
+        </div>
+        @)
+}}

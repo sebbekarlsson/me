@@ -2,18 +2,8 @@
 
 
 (@#%block root
-    <section class="hero is-medium is-dark is-bold">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                    {{ headline }}
-                </h1>
-                <h2 class="subtitle">
-                    {{ description }} 
-                </h2>
-            </div>
-        </div>
-    </section>
+    {{ cate ("components/hero.html") }}
+{{ cate ("components/nav.html") }}
     <section class="section">
         <div class="container">
             <h1 class="title">Companies I been involved with</h1>
@@ -32,7 +22,7 @@
                 </details>
             </div>
 
-            {{ cate ("src/companies.html") }}
+            {{ cate ("companies.html") }}
         </div>
     </section>
     <section class="section">
@@ -63,7 +53,7 @@
             </h2>
         </div>
         <div class='container'>
-            {{ cate ("src/skills.html") }}
+            {{ cate ("skills.html") }}
         </div>
     </section>
     <section class="section">

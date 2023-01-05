@@ -1,48 +1,120 @@
 {
-  "title": "Ianertson",
-  "headline": "Sebastian Karlsson",
-  "description": "Developer and Engineer",
-  "navitems": [{ "start": "index.html" }, { "projects": "projects.html" }],
-  "projectCards": [
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_19_51.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_19_51_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_20_37.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_20_37_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_20_53.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_20_53_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_21_8.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_21_8_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_23_39.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_23_39_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_24_43.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_24_43_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_24_5.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_24_5_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_24_57.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_24_57_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_26_24.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_26_24_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_26_59.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_26_59_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_27_21.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_27_21_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_27_40.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_27_40_small.jpg" },
-      { "title": "0", "subtitle": "0", "img": "img/gamedev/screenshot_2022_12_11_2_27_53.png", "thumb": "img/gamedev/screenshot_2022_12_11_2_27_53_small.jpg" }
-  ],
-  "skills": [
-    { "python": 95 },
-    { "javascript": 79 },
-    { "C": 80 },
-    { "C++": 79 },
-    { "PHP": 89 },
-    { "Typescript": 79 },
-    { "Bash": 79 },
-    { "SQL": 60 },
-    { "CSS": 81 },
-    { "HTML": 90 },
-    { "SCSS": 82 },
-    { "SEO": 36 },
-    { "Java": 60 },
-    { "React.js": 70 },
-    { "Vue.js": 50 },
-    { "Flask": 90 },
-    { "MongoDB": 69 },
-    { "Flutter": 40 },
-    { "React Native": 39 },
-    { "OpenGL": 60 },
-    { "Linux": 87 },
-    { "Kubernetes": 20 },
-    { "Elastic Search": 25 },
-    { "Firebase": 59 },
-    { "Wordpress": 86 }
-  ]
+    "title": "Ianertson",
+    "headline": "Sebastian Karlsson",
+    "description": "Developer and Engineer",
+    "navitems": [{ "start": "index.html" }, { "gallery": "gallery.html" }],
+    "projectCards": [
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_19_51.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_19_51_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_20_37.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_20_37_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_20_53.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_20_53_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_21_8.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_21_8_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_23_39.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_23_39_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_24_43.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_24_43_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_24_5.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_24_5_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_24_57.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_24_57_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_26_24.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_26_24_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_26_59.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_26_59_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_27_21.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_27_21_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_27_40.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_27_40_small.jpg"
+	},
+	{
+	    "title": "0",
+	    "subtitle": "0",
+	    "img": "img/gamedev/screenshot_2022_12_11_2_27_53.png",
+	    "thumb": "img/gamedev/screenshot_2022_12_11_2_27_53_small.jpg"
+	}
+    ],
+    "skills": [
+	{ "python": 95 },
+	{ "javascript": 79 },
+	{ "C": 80 },
+	{ "C++": 79 },
+	{ "PHP": 89 },
+	{ "Typescript": 79 },
+	{ "Bash": 79 },
+	{ "SQL": 60 },
+	{ "CSS": 81 },
+	{ "HTML": 90 },
+	{ "SCSS": 82 },
+	{ "SEO": 36 },
+	{ "Java": 60 },
+	{ "React.js": 70 },
+	{ "Vue.js": 50 },
+	{ "Flask": 90 },
+	{ "MongoDB": 69 },
+	{ "Flutter": 40 },
+	{ "React Native": 39 },
+	{ "OpenGL": 60 },
+	{ "Linux": 87 },
+	{ "Kubernetes": 20 },
+	{ "Elastic Search": 25 },
+	{ "Firebase": 59 },
+	{ "Wordpress": 86 }
+    ],
+    "projects": [
+	{ "name": "glms", "description": "Custom language focused on linear algebra, based on GLSL and Javascript", "link": "https://github.com/sebbekarlsson/glms" },
+	{ "name": "Akit", "description": "3D audio engine (augmented audio)", "link": "https://github.com/sebbekarlsson/akit" },
+	{"name": "rvfs", "description": "Virtual filesystem", "link": "https://github.com/sebbekarlsson/rvfs"},
+	{"name": "FJB", "description": "Fast Javascript Bundler", "link": "https://github.com/sebbekarlsson/fjb"},
+	{"name": "fastjson", "description": "Fast JSON parser", "link": "https://github.com/sebbekarlsson/fastjson"}
+    ]
 }

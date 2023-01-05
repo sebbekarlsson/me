@@ -21,8 +21,8 @@ cp $STATICDIR/fav/* $DISTDIR/.
 cp -r $STATICDIR/img $DISTDIR/.
 
 
-SRCFILE=src/projects.html
-DISTFILE=$DISTDIR/projects.html
+SRCFILE=src/gallery.html
+DISTFILE=$DISTDIR/gallery.html
 /home/ianertson/workspace/gpp/build/gpp_e $SRCFILE > $TMPFILE;
 #./minify.sh $TMPFILE > $DISTFILE
 cat $TMPFILE > $DISTFILE

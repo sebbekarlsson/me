@@ -1,26 +1,11 @@
-#%extends "src/index.html"
-
-{{ cate ("components/card.html") }}
-
-
-
-
-(@#%block root
-    {{ cate ("components/hero.html") }}
-    {{ cate ("components/nav.html") }}
-    <section class="section project-cards">
-
-        <div class="columns is-desktop is-multiline">
-
-                {{
-                    map(projectCards, (@
-                        <div class="column">
-                            {{ Card(" ", " ", " ", $0.img, $0.thumb) }}
-                        </div>
-                    @))
-                }}
-
-
-        </div>
-    </section>
-@)
+<table class="table is-fullwidth">
+  <tbody>
+      {{ map(projects, (@
+      <tr>
+        <td><a href="{{ $0.link }}">{{ $0.name }}</a></td>
+        <td>{{ $0.description }}</td>
+        <td><a class="button" href="{{ $0.link }}">Visit</button></td>
+    </tr>
+      @)) }}
+  </tbody>
+</table>

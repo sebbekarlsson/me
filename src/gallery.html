@@ -1,0 +1,27 @@
+#%extends "src/index.html"
+
+{{ cate ("components/card.html") }}
+
+
+
+
+(@#%block root
+    {{ cate ("components/hero.html") }}
+    {{ cate ("components/nav.html") }}
+    <section class="section project-cards">
+      <h1 class="title">Game Engine screenshots</h1>
+      <h2 class="subtitle">Game engine written in C99</h2>
+        <div class="columns is-desktop is-multiline">
+
+                {{
+                    map(projectCards, (@
+                        <div class="column">
+                            {{ Card(" ", " ", " ", $0.img, $0.thumb) }}
+                        </div>
+                    @))
+                }}
+
+
+        </div>
+    </section>
+@)

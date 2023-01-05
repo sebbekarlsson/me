@@ -14,6 +14,9 @@
 * Typescript
 * Node.js
 * React
+* React Native
+* Java
+* Swift
 * Python
 * C
 * C++
@@ -28,7 +31,25 @@
 
 ## Companies
 
-### 2020 - now (current) Teacher at Codic Education
+### 2022 - 2023 Exodus
+> At Exodus I focused mainly focused on performance.  
+> I built tools to help us find bottlenecks and provided solutions.  
+> I also occasionally also participated in developing new features / fixing bugs in the existing Android and Mobile app.
+
+> At Exodus I used some of the technologies below (in no particular order):
+
+* Javascript
+* Node.js
+* React Native
+* C/C++
+* Swift
+* Java
+
+
+### 2021 - 2022 RGNT Motorcycles
+> As a consultant, I developed a Mobile app for both Android and IOS 
+
+### 2020 - 2021 Teacher at Codic Education
 > Working as a teacher in IT-related subjects at different schools.
 
 ### 2019 - 2021 PAX H.

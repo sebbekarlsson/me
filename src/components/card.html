@@ -1,9 +1,9 @@
 {{
-    Card = (title, subtitle, content, img) => (@
+    Card = (title, subtitle, content, img, thumb) => (@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="{{ img }}" alt="{{ title }}">
+              <img src="{{ thumb }}" data-src="{{ img }}" alt="{{ title }}">
             </figure>
           </div>
           <div class="card-content">

@@ -5,7 +5,8 @@ const applyImageClicks = () => {
     for (const img of images) {
         img.addEventListener('click', (event) => {
             const href = event.target.getAttribute('src');
-            window.location.href = href;
+	    const dataSrc = event.target.getAttribute('data-src');
+            window.location.href = dataSrc ? dataSrc : href;
         });
     }
 }

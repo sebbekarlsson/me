@@ -277,7 +277,8 @@ hljs.registerLanguage("yaml",function(){"use strict";return function(e){var n="t
     for (const img of images) {
         img.addEventListener('click', (event) => {
             const href = event.target.getAttribute('src');
-            window.location.href = href;
+	    const dataSrc = event.target.getAttribute('data-src');
+            window.location.href = dataSrc ? dataSrc : href;
         });
     }
 }
@@ -319,7 +320,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_19_51.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_19_51_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_19_51.png" alt=" ">
 
 </figure>
 
@@ -361,7 +362,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_20_37.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_20_37_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_20_37.png" alt=" ">
 
 </figure>
 
@@ -403,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_20_53.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_20_53_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_20_53.png" alt=" ">
 
 </figure>
 
@@ -445,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_21_8.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_21_8_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_21_8.png" alt=" ">
 
 </figure>
 
@@ -487,7 +488,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_23_39.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_23_39_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_23_39.png" alt=" ">
 
 </figure>
 
@@ -529,7 +530,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_24_43.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_24_43_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_24_43.png" alt=" ">
 
 </figure>
 
@@ -571,7 +572,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_24_5.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_24_5_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_24_5.png" alt=" ">
 
 </figure>
 
@@ -613,7 +614,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_24_57.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_24_57_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_24_57.png" alt=" ">
 
 </figure>
 
@@ -655,7 +656,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_26_24.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_26_24_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_26_24.png" alt=" ">
 
 </figure>
 
@@ -697,7 +698,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_26_59.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_26_59_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_26_59.png" alt=" ">
 
 </figure>
 
@@ -739,7 +740,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_27_21.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_27_21_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_27_21.png" alt=" ">
 
 </figure>
 
@@ -781,7 +782,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_27_40.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_27_40_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_27_40.png" alt=" ">
 
 </figure>
 
@@ -823,7 +824,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <figure class="image is-4by3">
 
-<img src="img/gamedev/screenshot_2022_12_11_2_27_53.png" alt=" ">
+<img src="img/gamedev/screenshot_2022_12_11_2_27_53_small.jpg" data-src="img/gamedev/screenshot_2022_12_11_2_27_53.png" alt=" ">
 
 </figure>
 

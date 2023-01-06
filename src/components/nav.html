@@ -3,7 +3,7 @@
     <ul>
         {{
           map (navitems, (@
-          <li><a href="{{ value ($0, 0) }}">{{ key ($0, 0) }}</a></li>
+          <li><a class="uppercase-first" href="{{ value ($0, 0) }}">{{ key ($0, 0) }}</a></li>
           @))
         }}
   </ul>

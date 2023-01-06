@@ -2,7 +2,11 @@
     "title": "Ianertson",
     "headline": "Sebastian Karlsson",
     "description": "Developer and Engineer",
-    "navitems": [{ "start": "index.html" }, { "gallery": "gallery.html" }],
+    "navitems": [
+	{ "start": "index.html" },
+	{ "gallery": "gallery.html" },
+	{ "music": "music.html" }
+    ],
     "projectCards": [
 	{
 	    "title": "0",

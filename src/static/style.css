@@ -80,3 +80,7 @@ img {
 .project-cards .column {
   min-width: 20%;
 }
+
+.uppercase-first {
+  text-transform: capitalize;
+}

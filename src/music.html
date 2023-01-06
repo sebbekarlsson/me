@@ -1,0 +1,38 @@
+#%extends "src/index.html"
+
+{{ cate ("components/card.html") }}
+
+
+
+
+(@#%block root
+{{ cate ("components/hero.html") }}
+{{ cate ("components/nav.html") }}
+<section class="section">
+  <h1 class="title">Music Production</h1>
+  <p>
+    On my spare time, I like to produce music.
+    I both enjoy writing lyrics and melodies.
+  </p>
+</section>
+
+<section>
+
+  <div class="tile is-ancestor">
+    <div class="tile">
+      <div class="tile is-parent is-horizontal">
+
+	<article class="tile is-child notification">
+	  <iframe src="https://open.spotify.com/embed/artist/3Yv6oDjaiZNy3VXKs65dmo?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	</article>
+
+	<article class="tile is-child notification">
+	  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1358292154&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sebastianrobert" title="Sebastian Robert" target="_blank" style="color: #cccccc; text-decoration: none;">Sebastian Robert</a> · <a href="https://soundcloud.com/sebastianrobert/this-dance-1" title="This dance" target="_blank" style="color: #cccccc; text-decoration: none;">This dance</a></div>
+
+	</article>
+      </div>
+
+    </div>
+  </div> 
+</section>
+@)
